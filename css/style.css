@@ -1,0 +1,44 @@
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  /* color: #fff; */
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.header {
+}
+.logo {
+}
+.nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+}
+.main {
+}
+.hero {
+}

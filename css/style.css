@@ -25,20 +25,70 @@ h6,
 p {
   margin: 0;
 }
+.container{
+  margin: 0 auto;
+  max-width: 1360;
+}
 
-.header {
+.header .container{
+  padding-left: 28px;
+  padding-right: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo {
+font-size: 35px;
+line-height: 1.2;
+
+}
+.span-logo{
+  color: #28a745;
 }
 .nav {
 }
 .nav-list {
+  display: flex;
+  align-items:center;
+  gap: 40px;
+  
 }
+
 .nav-item {
 }
 .nav-link {
+  display: block;
+  padding: 20px 0;
+line-height: 1.6;
 }
 .main {
 }
-.hero {
+
+.hero{
+  padding-top: 280px;
+  padding-bottom: 282px;
 }
+.hero-title{
+font-weight: 300;
+font-size: 55px;
+line-height: 1.2;
+text-align: center;
+color: #e9e9e9;
+margin-bottom: 24px;
+}
+.hero-text{
+font-weight: 400;
+font-size: 22px;
+line-height: 1.7;
+text-align: center;
+color: #e9e9e9;
+margin-bottom: 32px;
+}
+.btn{
+  display: block;
+  border-radius: 5px;
+  min-width: 165px;
+  margin: 0 auto;
+  background-color: #28a745;
+  padding: 9px 29px;
+  }

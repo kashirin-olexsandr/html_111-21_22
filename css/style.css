@@ -1,7 +1,6 @@
 body {
-  background: #fff;
-  font-family: "Open Sans", sans-serif;
-  /* color: #fff; */
+    font-family: "Open Sans", sans-serif;
+  color: #fff; 
   font-size: 18px;
 }
 
@@ -27,15 +26,24 @@ p {
 }
 .container{
   margin: 0 auto;
-  max-width: 1360;
-}
+  max-width: 1360px;
 
+}
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+
+
+}
 .header .container{
   padding-left: 28px;
   padding-right: 28px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 .logo {
 font-size: 35px;
@@ -67,6 +75,11 @@ line-height: 1.6;
 .hero{
   padding-top: 280px;
   padding-bottom: 282px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-image: url(../images/bg-hiro.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title{
 font-weight: 300;

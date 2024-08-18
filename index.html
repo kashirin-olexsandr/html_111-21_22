@@ -77,79 +77,138 @@
           </div>
         </div>
       </section>
-      <section>
-        <p>This is what we do</p>
-        <h2>Business Cases</h2>
-        <p>
+
+      <!-- cases -->
+      <section class="cases">
+        <div class="container">
+          <p class="cases-litle-title-p">This is what we do</p>
+          <h2 class="cases-title">Business Cases</h2>
+          <p class="cases-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <ul class="cases-list-img">
+            <li class="cases-item">
+              <img src="./images/cases-1.jpg" alt="team on the table" />
+            </li>
+            <li class="cases-item">
+              <img src="./images/cases2.jpg" alt="notes" />
+            </li>
+            <li class="cases-item">
+              <img src="./images/cases3.jpg" alt="handshake" />
+            </li>
+            <li class="cases-item">
+              <img src="./images/cases4.jpg" alt="hands" />
+            </li>
+            <li class="cases-item">
+              <img src="./images/cases5.jpg" alt="laptop" />
+            </li>
+            <li class="cases-item">
+              <img src="./images/cases6.jpg" alt="building" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- cases -->
+
+      <!-- blog -->
+      <section class="blog">
+        <div class="container blog-wrap">
+          <div class="blog-content">
+            <p class="blog-datum-p">April 16 2020</p>
+            <h2 class="blog-title">Blog Post One</h2>
+            <p class="blog-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <button class="blog-btn" type="button">Read Our Blog</button>
+          </div>
+          <img
+            src="./images/cofee_cup.jpg"
+            alt="cofee_cup"
+            width="670"
+            hight="460"
+          />
+        </div>
+      </section>
+
+      <!-- blog -->
+      <section class="team">
+       <div class="container team-container"> <p class="litle-title-p-team">Who we are</p>
+        <h2 class="team-title">Our Professional Team</h2>
+        <p class="team-text" >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
           sapiente!
         </p>
-        <ul>
-          <li><img src="./images/cases-1.jpg" alt="team on the table" /></li>
-          <li><img src="./images/cases2.jpg" alt="notes" /></li>
-          <li><img src="./images/cases3.jpg" alt="handshake" /></li>
-          <li><img src="./images/cases4.jpg" alt="hands" /></li>
-          <li><img src="./images/cases5.jpg" alt="laptop" /></li>
-          <li><img src="./images/cases6.jpg" alt="building" /></li>
-        </ul>
-      </section>
-      <section>
-        <p>April 16 2020</p>
-        <h2>Blog Post One</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button">Read Our Blog</button>
-        <img
-          src="./images/cofee_cup.jpg"
-          alt="cofee_cup"
-          width="670"
-          hight="460"
-        />
-      </section>
-      <section>
-        <p>Who we are</p>
-        <h2>Our Professional Team</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul>
-          <li>
-            <img
-              src="./images/john_doe.jpg"
-              alt="john_doe"
-              width="421"
-              height="286"
-            />
-            <h3>John Doe</h3>
-            <p>President</p>
-          </li>
-          <li>
-            <img
-              src="./images/jane_doe.jpg"
-              alt="jane_doe"
-              width="421"
-              height="286"
-            />
-            <h3>Jane Doe</h3>
-            <p>Vice president</p>
-          </li>
-          <li>
-            <img
-              src="./images/steve_smith.jpg"
-              alt="steve_smith"
-              width="421"
-              height="286"
-            />
-            /
-            <h3>Steve Smith</h3>
-            <p>Marketing Head</p>
-          </li>
-        </ul>
+       <ul class="team-contact-list">
+        <li> 
+          <!-- обвернули картинку  -->
+          <div class="wraper-team"> 
+          <img class="img-workers"
+           src="./images/john_doe.jpg"
+           alt="john_doe"
+           width="421"
+           height="286"
+         />
+<!-- тут будет иконки с бг  -->
+         <div class="team-overlay"> 
+      <ul class="team-icons-list"> 
+<li class="icons-item">
+  <svg class="team-svg" width="35" height="35" >
+    <use href="./images/symbol-defs.svg#icob-fb "></use>
+  </svg>
+</li>
+<li>
+  <a class="icon-link" href="">
+  <svg>
+    <use></use>
+  </svg>
+</a>
+</li>
+<li>
+  <a href="">
+  <svg>
+    <use></use>
+  </svg></a>
+</li>
+<li> <a href="">
+  <svg>
+    <use></use>
+  </svg> </a>
+</li>
+  
+      </ul>
+         </div>
+        </div>
+        <!-- text content in div -->
+ <div class="wraper-text-content">
+  <h3    class="name-workers"  >John Doe</h3>
+  <p   class="post"   >President</p></div>
+        </li>
+        <li>
+          <img
+            src="./images/jane_doe.jpg"
+            alt="jane_doe"
+            width="421"
+            height="286"
+          />
+          <h3 class="name-workers" >Jane Doe</h3>
+          <p  class="post"    >Vice president</p>
+        </li>
+        <li>
+          <img
+            src="./images/steve_smith.jpg"
+            alt="steve_smith"
+            width="421"
+            height="286"
+          />
+          /
+          <h3 class="name-workers"  >Steve Smith</h3>
+          <p  class="post"   >Marketing Head</p>
+        </li>
+      </ul></div>
       </section>
       <section>
         <img src="images/man1.jpg" alt="man" width="670" height="454" />

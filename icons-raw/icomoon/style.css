@@ -1,0 +1,25 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  background-color: #fff;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-tw {
+  width: 1.1669921875em;
+}
+
+.icon-youtub {
+  width: 1.4072265625em;
+}

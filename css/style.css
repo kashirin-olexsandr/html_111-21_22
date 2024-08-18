@@ -17,6 +17,7 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 h1,
@@ -105,6 +106,7 @@ p {
 
 .about-team {
   background-color: #28a745;
+  margin-bottom: 80px;
 }
 .about-team .container {
   display: flex;
@@ -151,3 +153,203 @@ p {
   padding-bottom: 80px;
   padding-left: 20px;
 }
+
+.cases {
+  margin-bottom: 80px;
+}
+
+/*  #region cases  */
+
+.cases-litle-title-p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.cases-title {
+  font-weight: 300;
+  font-size: 38px;
+
+  line-height: 1.27;
+  text-align: center;
+  color: #333;
+
+  margin-bottom: 24px;
+}
+.cases-text {
+  font-weight: 400;
+  font-size: 18px;
+
+  /* line-height: 28px; */
+  line-height: 1.57;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+.cases-list-img {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 21px;
+  column-gap: 24px;
+}
+
+.cases-item {
+  /*  забула куди і нащо*/
+  width: calc((100%-21px * 2) / 3);
+  height: calc((100%-24px * 2) / 3);
+}
+/* #endregion  cases */
+
+/* #region blog */
+
+.blog {
+  background-color: #0284d0;
+}
+
+.blog-content {
+  padding: 80px 56px 80px 28px;
+}
+.blog-datum-p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.blog-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.27;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.blog-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.57;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.blog-btn {
+  min-width: 196px;
+  min-height: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 1.56;
+  color: #fff;
+}
+
+.blog-wrap {
+  display: flex;
+}
+
+/* #endregion blog */
+
+/*  #redion team  */
+
+.team-contact-list {
+  display: flex;
+  gap: 20px;
+  
+}
+
+
+.litle-title-p-team {
+  font-weight: 400;
+  font-size: 20px;
+
+  line-height: 1.65;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.team-title {
+  font-weight: 300;
+  font-size: 38px;
+
+  line-height: 1.26;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 1.56;
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+
+.team-item {
+  /* width: calc((100% - 20px *  2) / 3); */
+}
+.img-workers {
+  margin-bottom: 20px;
+}
+.name-workers {
+  font-weight: 400;
+  font-size: 25px;
+
+  line-height: 1.27;
+  text-align: center;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.post {
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 1.56;
+  text-align: center;
+  color: #333;
+}
+
+
+/* svg overlay */
+.team-svg { fill: #28a745;}
+
+.team-svg {  transition: fill 250ms ease-in-out; }
+.wraper-team {position: relative;}
+
+.wraper-team  {  opacity: 1;}
+
+.icon-link { fill: #28a745; }
+.team-overlay { 
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-icons-list { 
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.team-svg { transition: fill 250ms ease-in-out; }
+
+/* #endregion team */

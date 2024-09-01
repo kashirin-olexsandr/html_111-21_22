@@ -30,7 +30,7 @@ p {
 }
 .container {
   margin: 0 auto;
-  max-width: 1360px;
+  width: 1360px;
 }
 .header {
   position: absolute;
@@ -111,27 +111,31 @@ p {
 }
 .about-team-img {
 }
-.about-team-text-subtitle {
+.about-team-text-subtitle,
+.blog-subtitle {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.64;
   color: #fff;
   margin-bottom: 8px;
 }
-.about-team-title {
+.about-team-title,
+.blog-title {
   font-weight: 300;
   font-size: 38px;
   line-height: 1.26;
   color: #fff;
   margin-bottom: 24px;
 }
-.about-team-text {
+.about-team-text,
+.blog-text {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.56;
   color: #fff;
 }
-.about-team-button {
+.about-team-button,
+.blog-button {
   background-color: transparent;
   font-size: 18px;
   line-height: 1.56;
@@ -143,25 +147,31 @@ p {
   padding-right: 34px;
   border: 1px solid #fff;
   border-radius: 5px;
-  width: 167px;
+  min-width: 167px;
   height: 50px;
 }
+
+
+
 .image-text {
   padding-top: 80px;
   padding-bottom: 80px;
   padding-left: 20px;
 }
 
-.business-cases {
+.business-cases,
+.our-professional-team {
   padding: 80px 0;
 }
 
-.business-container {
+.business-container,
+.our-team-container {
   padding-left: 28px;
   padding-right: 28px;
 }
 
-.business-cases-text {
+.business-cases-text,
+.our-team-text {
   font-weight: 400;
 font-size: 20px;
 line-height: 1.65;
@@ -170,6 +180,7 @@ color: #333;
 margin-bottom: 24px;
 }
 
+.business-cases-header,
 .business-cases-header {
   font-weight: 300;
 font-size: 38px;
@@ -179,7 +190,8 @@ color: #333;
 margin-bottom: 24px;
 }
 
-.business-cases-text2 {
+.business-cases-text2,
+.our-tem-text2 {
   font-weight: 400;
 font-size: 18px;
 line-height: 1.56;
@@ -197,4 +209,73 @@ margin-bottom: 24px;
 
 .business-cases-list-item {
   flex-basis: calc(( 100% - 40px ) / 3);
+}
+
+.blog-container {
+  display: flex;
+}
+
+.blog {
+  background: #0284d0;
+}
+
+.blog-container .image-text {
+  padding-left: 28px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 20px;
+}
+
+.our-team-list-name {
+  font-weight: 400;
+font-size: 25px;
+line-height: 1.27;
+text-align: center;
+color: #333;
+margin-top: 20px;
+margin-bottom: 12px;
+}
+
+.our-team-proffesions {
+  font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+text-align: center;
+color: #333;
+}
+
+.social-list {
+  display: flex;
+  gap: 25px;
+}
+
+.our-team-img-wrapper {
+  position: relative;
+}
+
+.our-team-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+
+  transition: visibility 250ms ease-in-out, opacity 250ms ease-in-out;
+}
+
+.our-team-img-wrapper:hover .our-team-overlay {
+ visibility: visible;
+ opacity: 1;
+}
+
+.social-icon {
+  fill: #fff;
 }
